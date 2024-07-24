@@ -1,0 +1,31 @@
+{
+  "name": "react-electron-tasks",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:react start:electron",
+    "start:react": "webpack serve --mode development",
+    "start:electron": "wait-on http://localhost:3000 && electron ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.8",
+    "babel-loader": "^8.2.5",
+    "electron": "^24.0.0",
+    "electron-is-dev": "^2.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "npm-run-all": "^4.1.5",
+    "react-refresh": "^0.11.0",
+    "wait-on": "^6.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
