@@ -6,7 +6,7 @@
         "start": "vite",
         "build": "vite build",
         "electron": "electron .",
-        "dev": "concurrently \"npm run start\" \"wait-on http://localhost:5173 && sleep 2 && npm run electron\""
+        "dev": "concurrently \"npm run start\" \"wait-on http://localhost:5173 && npm run electron\""
     },
     "dependencies": {
         "react": "^18.2.0",
