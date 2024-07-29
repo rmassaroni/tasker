@@ -7,5 +7,9 @@
     },
     "devDependencies": {
         "electron": "^13.6.9"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "^4.3.1",
+        "vite": "^5.3.5"
     }
 }
