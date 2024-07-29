@@ -1,11 +1,12 @@
 {
-  "name": "tasker",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "devDependencies": {
-    "electron": "^latest"
-  }
+    "name": "tasker",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.cjs",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^latest"
+    }
 }
