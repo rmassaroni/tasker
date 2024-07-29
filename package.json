@@ -1,8 +1,7 @@
 {
     "name": "tasker",
     "version": "1.0.0",
-    "type": "module",
-    "main": "index.cjs",
+    "main": "main.js",
     "scripts": {
         "start": "electron ."
     },
